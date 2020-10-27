@@ -1,6 +1,5 @@
 # iOSMVP
 
-<img src="https://github.com/Allan-Nava/iOSMVP/blob/main/1_xoRTTRc4ARkBL_YdlThY-g.png?raw=true">
 
 ### MVC was adopted by Apple as an official architectural pattern for iOS. Where :
 
@@ -8,7 +7,7 @@ The view : is a xib file (or a UIView subclass).
 The Controller : A UIViewController subclass, which receives actions and events from the view and updates it.
 And Models : that are a representation of your data.
 
-<img src="https://miro.medium.com/max/1200/1*xoRTTRc4ARkBL_YdlThY-g.png">
+<img src="https://github.com/Allan-Nava/iOSMVP/blob/main/1_xoRTTRc4ARkBL_YdlThY-g.png?raw=true">
 
 ### The problematic :
 
