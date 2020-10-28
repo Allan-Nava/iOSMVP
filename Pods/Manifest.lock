@@ -1,0 +1,69 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireNetworkActivityLogger (2.4.0):
+    - Alamofire (~> 4.8)
+  - DZNEmptyDataSet (1.8.1)
+  - EZAlertController (3.2)
+  - KeychainAccess (4.2.1)
+  - Kingfisher (4.10.1)
+  - PureLayout (3.1.6)
+  - Skeleton (0.4.0)
+  - SkyFloatingLabelTextField (3.8.0)
+  - SwiftDate (6.2.0)
+  - SwiftyStoreKit (0.16.1)
+  - UIColor_Hex_Swift (5.1.0)
+  - UIImageViewAlignedSwift (0.4.1)
+  - UIScrollView-InfiniteScroll (1.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireNetworkActivityLogger (~> 2.0)
+  - DZNEmptyDataSet
+  - EZAlertController
+  - KeychainAccess
+  - Kingfisher (~> 4.0)
+  - PureLayout
+  - Skeleton
+  - SkyFloatingLabelTextField
+  - SwiftDate
+  - SwiftyStoreKit
+  - UIColor_Hex_Swift
+  - UIImageViewAlignedSwift (~> 0.4.1)
+  - UIScrollView-InfiniteScroll (~> 1.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityLogger
+    - DZNEmptyDataSet
+    - EZAlertController
+    - KeychainAccess
+    - Kingfisher
+    - PureLayout
+    - Skeleton
+    - SkyFloatingLabelTextField
+    - SwiftDate
+    - SwiftyStoreKit
+    - UIColor_Hex_Swift
+    - UIImageViewAlignedSwift
+    - UIScrollView-InfiniteScroll
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireNetworkActivityLogger: 6d3398c692d2c5d83b0c58793537860aca1e383d
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EZAlertController: 633be01320bed47720be54054df47667d61c2481
+  KeychainAccess: 9b07f665298d13c3a85881bd3171f6f49b8151c1
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  PureLayout: bd3c4ec3a3819ad387c99ebb72c6b129c3ed4d2d
+  Skeleton: ef0f1d1b62250ee93e3a805efd268e5fd2979b32
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  SwiftDate: d117c3eb6beed72e47d3f4d1e3bc63fa1e66d7c3
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  UIColor_Hex_Swift: 8be7432edacb7fa91c78aa05ef3c30b66e4f9415
+  UIImageViewAlignedSwift: e72ef2a85a75a01d19b4509ac92a3bdb872cd73c
+  UIScrollView-InfiniteScroll: c132d6d5851daff229ab4a1060ccf70a05a051c9
+
+PODFILE CHECKSUM: c3381d4473f0752bba4aec6e68baaab248feb215
+
+COCOAPODS: 1.8.4
