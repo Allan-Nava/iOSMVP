@@ -9,5 +9,11 @@ import UIKit
 
 class RootRouter: NSObject, RootWireFrame {
     
+    func presentIntialScreen(in window: UIWindow) {
+        
+        window.makeKeyAndVisible()
+    }
+    
+    
     
 }

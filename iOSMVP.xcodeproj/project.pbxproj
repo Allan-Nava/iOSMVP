@@ -14,6 +14,8 @@
 		9D5624E3254A0B000095E04D /* String_Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5624E2254A0B000095E04D /* String_Validation.swift */; };
 		9D5624F0254A0B410095E04D /* RootContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5624EF254A0B410095E04D /* RootContract.swift */; };
 		9D5624FB254A0B570095E04D /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5624FA254A0B570095E04D /* RootRouter.swift */; };
+		9D562509254A0CAD0095E04D /* BaseModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D562508254A0CAD0095E04D /* BaseModuleContract.swift */; };
+		9D56250F254A0DB40095E04D /* BaseDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D56250E254A0DB40095E04D /* BaseDataManager.swift */; };
 		9DA00248254955D2006DCF79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA00247254955D2006DCF79 /* AppDelegate.swift */; };
 		9DA0024A254955D2006DCF79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA00249254955D2006DCF79 /* SceneDelegate.swift */; };
 		9DA0024C254955D2006DCF79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA0024B254955D2006DCF79 /* ViewController.swift */; };
@@ -57,6 +59,8 @@
 		9D5624E2254A0B000095E04D /* String_Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Validation.swift; sourceTree = "<group>"; };
 		9D5624EF254A0B410095E04D /* RootContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContract.swift; sourceTree = "<group>"; };
 		9D5624FA254A0B570095E04D /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		9D562508254A0CAD0095E04D /* BaseModuleContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModuleContract.swift; sourceTree = "<group>"; };
+		9D56250E254A0DB40095E04D /* BaseDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataManager.swift; sourceTree = "<group>"; };
 		9DA00244254955D2006DCF79 /* iOSMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA00247254955D2006DCF79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DA00249254955D2006DCF79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 		9D5624ED254A0B270095E04D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				9D5624FF254A0C800095E04D /* BaseModule */,
 				9D5624EE254A0B320095E04D /* Root */,
 			);
 			path = Modules;
@@ -144,6 +149,23 @@
 				9D5624FA254A0B570095E04D /* RootRouter.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		9D5624FF254A0C800095E04D /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				9D56250D254A0DA20095E04D /* DataManager */,
+				9D562508254A0CAD0095E04D /* BaseModuleContract.swift */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		9D56250D254A0DA20095E04D /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				9D56250E254A0DB40095E04D /* BaseDataManager.swift */,
+			);
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 		9DA0023B254955D2006DCF79 = {
@@ -475,6 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D56250F254A0DB40095E04D /* BaseDataManager.swift in Sources */,
 				9DA0024C254955D2006DCF79 /* ViewController.swift in Sources */,
 				9D5624C6254A09160095E04D /* AppConfig.swift in Sources */,
 				9D5624CE254A09A60095E04D /* App_Style.swift in Sources */,
@@ -483,6 +506,7 @@
 				9D5624DA254A0ACE0095E04D /* File.metal in Sources */,
 				9D5624FB254A0B570095E04D /* RootRouter.swift in Sources */,
 				9D5624D3254A09B70095E04D /* Endpoint.swift in Sources */,
+				9D562509254A0CAD0095E04D /* BaseModuleContract.swift in Sources */,
 				9D5624F0254A0B410095E04D /* RootContract.swift in Sources */,
 				9DA0024A254955D2006DCF79 /* SceneDelegate.swift in Sources */,
 			);
