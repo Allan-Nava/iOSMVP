@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D5624C6254A09160095E04D /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5624C5254A09160095E04D /* AppConfig.swift */; };
+		9D5624CE254A09A60095E04D /* App_Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5624CD254A09A60095E04D /* App_Style.swift */; };
+		9D5624D3254A09B70095E04D /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5624D2254A09B70095E04D /* Endpoint.swift */; };
+		9D5624DA254A0ACE0095E04D /* File.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9D5624D9254A0ACE0095E04D /* File.metal */; };
+		9D5624E3254A0B000095E04D /* String_Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5624E2254A0B000095E04D /* String_Validation.swift */; };
+		9D5624F0254A0B410095E04D /* RootContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5624EF254A0B410095E04D /* RootContract.swift */; };
+		9D5624FB254A0B570095E04D /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5624FA254A0B570095E04D /* RootRouter.swift */; };
 		9DA00248254955D2006DCF79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA00247254955D2006DCF79 /* AppDelegate.swift */; };
 		9DA0024A254955D2006DCF79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA00249254955D2006DCF79 /* SceneDelegate.swift */; };
 		9DA0024C254955D2006DCF79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA0024B254955D2006DCF79 /* ViewController.swift */; };
@@ -43,6 +50,13 @@
 		814F58A7DC4CEE431B268478 /* Pods_iOSMVPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSMVPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AF8F62E39AB6108A48D6AC /* Pods-iOSMVPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMVPTests.release.xcconfig"; path = "Target Support Files/Pods-iOSMVPTests/Pods-iOSMVPTests.release.xcconfig"; sourceTree = "<group>"; };
 		9794682CA6C24E437C7B8CA3 /* Pods-iOSMVP-iOSMVPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMVP-iOSMVPUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSMVP-iOSMVPUITests/Pods-iOSMVP-iOSMVPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D5624C5254A09160095E04D /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		9D5624CD254A09A60095E04D /* App_Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Style.swift; sourceTree = "<group>"; };
+		9D5624D2254A09B70095E04D /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		9D5624D9254A0ACE0095E04D /* File.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = File.metal; sourceTree = "<group>"; };
+		9D5624E2254A0B000095E04D /* String_Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Validation.swift; sourceTree = "<group>"; };
+		9D5624EF254A0B410095E04D /* RootContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContract.swift; sourceTree = "<group>"; };
+		9D5624FA254A0B570095E04D /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		9DA00244254955D2006DCF79 /* iOSMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA00247254955D2006DCF79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DA00249254955D2006DCF79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +105,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D5624D7254A09CE0095E04D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D5624D8254A09D80095E04D /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9D5624D8254A09D80095E04D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9D5624D9254A0ACE0095E04D /* File.metal */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9D5624E1254A0AE30095E04D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9D5624E2254A0B000095E04D /* String_Validation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9D5624ED254A0B270095E04D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9D5624EE254A0B320095E04D /* Root */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9D5624EE254A0B320095E04D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				9D5624EF254A0B410095E04D /* RootContract.swift */,
+				9D5624FA254A0B570095E04D /* RootRouter.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 		9DA0023B254955D2006DCF79 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +171,10 @@
 		9DA00246254955D2006DCF79 /* iOSMVP */ = {
 			isa = PBXGroup;
 			children = (
+				9D5624ED254A0B270095E04D /* Modules */,
+				9D5624E1254A0AE30095E04D /* Extensions */,
+				9D5624D7254A09CE0095E04D /* Resources */,
+				9DA002A2254959A0006DCF79 /* Common */,
 				9DA00247254955D2006DCF79 /* AppDelegate.swift */,
 				9DA00249254955D2006DCF79 /* SceneDelegate.swift */,
 				9DA0024B254955D2006DCF79 /* ViewController.swift */,
@@ -145,6 +204,16 @@
 			path = iOSMVPUITests;
 			sourceTree = "<group>";
 		};
+		9DA002A2254959A0006DCF79 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9D5624C5254A09160095E04D /* AppConfig.swift */,
+				9D5624CD254A09A60095E04D /* App_Style.swift */,
+				9D5624D2254A09B70095E04D /* Endpoint.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		BF542502871F15318BE1FFFC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +224,6 @@
 				BD6BDE286CDA198B90D30742 /* Pods-iOSMVPTests.debug.xcconfig */,
 				82AF8F62E39AB6108A48D6AC /* Pods-iOSMVPTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,7 +476,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DA0024C254955D2006DCF79 /* ViewController.swift in Sources */,
+				9D5624C6254A09160095E04D /* AppConfig.swift in Sources */,
+				9D5624CE254A09A60095E04D /* App_Style.swift in Sources */,
+				9D5624E3254A0B000095E04D /* String_Validation.swift in Sources */,
 				9DA00248254955D2006DCF79 /* AppDelegate.swift in Sources */,
+				9D5624DA254A0ACE0095E04D /* File.metal in Sources */,
+				9D5624FB254A0B570095E04D /* RootRouter.swift in Sources */,
+				9D5624D3254A09B70095E04D /* Endpoint.swift in Sources */,
+				9D5624F0254A0B410095E04D /* RootContract.swift in Sources */,
 				9DA0024A254955D2006DCF79 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
