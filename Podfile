@@ -16,7 +16,7 @@ target 'iOSMVP' do
   pod 'SkyFloatingLabelTextField'
   pod 'DZNEmptyDataSet'
   pod 'Skeleton'
-  pod 'UIScrollView-InfiniteScroll', '~> 1.0.0'
+  pod 'UIScrollView-InfiniteScroll', '~> 1.3.0'
   pod 'SwiftDate'
   pod 'SwiftyStoreKit'
   #
