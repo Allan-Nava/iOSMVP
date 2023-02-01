@@ -6,7 +6,7 @@ target 'iOSMVP' do
   use_frameworks!
   #
   pod 'Alamofire', '~> 4.4'
-  pod 'AlamofireNetworkActivityLogger', '~> 2.0'
+  pod 'AlamofireNetworkActivityLogger', '~> 3.0'
   pod 'Kingfisher', '~> 4.0'
   pod 'EZAlertController'
   pod 'KeychainAccess'
