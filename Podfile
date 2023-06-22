@@ -12,7 +12,7 @@ target 'iOSMVP' do
   pod 'KeychainAccess'
   pod 'UIColor_Hex_Swift'
   pod 'PureLayout'
-  pod 'UIImageViewAlignedSwift', '~> 0.4.1'
+  pod 'UIImageViewAlignedSwift', '~> 0.8.0'
   pod 'SkyFloatingLabelTextField'
   pod 'DZNEmptyDataSet'
   pod 'Skeleton'
