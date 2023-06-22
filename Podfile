@@ -7,7 +7,7 @@ target 'iOSMVP' do
   #
   pod 'Alamofire', '~> 4.4'
   pod 'AlamofireNetworkActivityLogger', '~> 2.0'
-  pod 'Kingfisher', '~> 4.0'
+  pod 'Kingfisher', '~> 7.0'
   pod 'EZAlertController'
   pod 'KeychainAccess'
   pod 'UIColor_Hex_Swift'
